@@ -1,6 +1,6 @@
 import './style';
 import { Component } from 'preact';
-import Plant from './components/Plant';
+import Plant from './components/plant';
 import dragNdrop from 'npm-dragndrop';
 import linkState from 'linkstate';
 
