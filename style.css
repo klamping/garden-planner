@@ -1,0 +1,44 @@
+html, body {
+	font: 14px/1.21 'Helvetica Neue', arial, sans-serif;
+	font-weight: 400;
+  background: #DDDDDD;
+}
+
+.container {
+  position: relative;
+  font-size: 10px;
+}
+
+.bed {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 50em;
+}
+
+.year {
+  position: absolute;
+  height: 20em;
+  display: flex;
+  background: #fff;
+}
+
+.month {
+  flex: 1 0;
+}
+.month:before {
+  content: '';
+  height: 100%;
+  width: 1px;
+  display: block;
+  position: absolute;
+  background: #000;
+}
+.freezeDate {
+  height: 100%;
+  width: 1px;
+  display: block;
+  position: absolute;
+  background: #aaa;
+}
+
